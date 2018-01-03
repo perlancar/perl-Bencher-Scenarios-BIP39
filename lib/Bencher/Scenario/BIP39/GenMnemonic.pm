@@ -6,6 +6,7 @@ package Bencher::Scenario::BIP39::GenMnemonic;
 use Nodejs::Util qw(get_nodejs_path nodejs_module_path);
 
 our $scenario = {
+    summary => 'Benchmark generating 20k 128bit mnemonic phrase',
     participants => [
         {
             module => 'Bitcoin::BIP39',
@@ -34,4 +35,4 @@ our $scenario = {
 $scenario;
 
 1;
-# ABSTRACT: Benchmark generating BIP39 mnemonic
+# ABSTRACT:
