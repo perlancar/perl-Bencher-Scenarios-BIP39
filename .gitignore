@@ -2,3 +2,4 @@ Bencher-Scenarios-BIP39-*
 .build
 *~
 nytprof*
+.DS_Store
